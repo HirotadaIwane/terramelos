@@ -1,0 +1,3 @@
+{
+ "name":"terramelos-engine","version":"0.1.0","description":"Deterministic earthquake sonification: a UTC day in 60 seconds of stereo PCM.","type":"module","license":"MIT","author":"Hirotada Iwane","repository":{"type":"git","url":"https://github.com/HirotadaIwane/terramelos.git"},"exports":{".":{"types":"./dist/index.d.ts","import":"./dist/index.js"}},"files":["dist","README.md","LICENSE"],"scripts":{"build":"tsc -p tsconfig.json","test":"npm run build && node --test test/*.test.mjs"},"engines":{"node":">=22.13.0"},"devDependencies":{"typescript":"^5.9.3"}
+}
